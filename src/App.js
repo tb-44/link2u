@@ -1,26 +1,62 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import Main from "./Components/Main";
+import { BrowserRouter } from "react-router-dom";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  faPencilAlt,
+  faUsers,
+  faCalendarAlt,
+  faPlus,
+  faSearch,
+  faMapMarkerAlt,
+  faSuitcase,
+  faEnvelope,
+  faComments,
+  faUserCircle,
+  faLocationArrow,
+  faChartPie,
+  faListUl,
+  faPlug,
+  faScroll,
+  faEdit,
+  faAt,
+  faKey,
+  faSignOutAlt,
+} from "@fortawesome/free-solid-svg-icons";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+library.add(
+  faPencilAlt,
+  faUsers,
+  faCalendarAlt,
+  faPlus,
+  faSearch,
+  faMapMarkerAlt,
+  faSuitcase,
+  faEnvelope,
+  faComments,
+  faUserCircle,
+  faLocationArrow,
+  faChartPie,
+  faListUl,
+  faPlug,
+  faScroll,
+  faEdit,
+  faAt,
+  faKey,
+  faSignOutAlt
+);
+
+class App extends Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <div>
+          <Main />
+        </div>
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;
