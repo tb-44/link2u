@@ -1,0 +1,228 @@
+.user-inbox .content {
+    display: flex;
+    height: 100vh;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 1200px;
+}
+
+.user-inbox .master {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid #cccccc;
+    border-right-width: 0px;
+}
+
+.content-ctr {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.user-inbox .master-header {
+    flex: 1;
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    border-bottom: 1px solid #d3d8de;
+}
+
+.user-inbox .master-content {
+    flex: 19;
+    overflow-y: auto;
+}
+
+.user-inbox .detail {
+    flex: 3;
+    border: 1px solid #cccccc;
+    display: flex;
+}
+
+.user-inbox .message {
+    text-decoration: none;
+    cursor: pointer;
+    width: inherit;
+    border-bottom: 1px solid #d3d8de;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.user-inbox .message:hover {
+    background-color: #f6f7f8;
+    box-shadow: rgb(0, 115, 177) 4px 0px 0px inset, rgb(243, 246, 248) 0px -1px 0px inset;
+}
+
+.user-inbox .message img {
+    height: 60px;
+    width: 60px;
+}
+
+.user-inbox .conversation {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.user-inbox .conversation-list {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-inbox .conversation-header {
+    flex: 1;
+    padding: 5px;
+    padding-left: 20px;
+    border-bottom: 1px solid #cccccc;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user-inbox .conversation-header h6 {
+    margin-left: 15px;
+}
+
+.user-inbox .conversation-content {
+    flex: 9;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    overflow-y: auto;
+    max-width: 100%;
+}
+
+.conversation .input-message {
+    display: flex;
+    flex: 2;
+    align-items: flex-end;
+    width: inherit;
+    height: auto;
+    justify-content: space-around;
+    padding: 10px;
+    border-top: 1px solid #cccccc;
+}
+
+.conversation {
+    overflow-y: auto;
+}
+
+.user-inbox textarea {
+    margin-right: 10px;
+    resize: none;
+}
+
+.user-inbox .message-container {
+    margin: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.user-inbox .message-container .sender-name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.user-inbox .message-container .message-content {
+    font-size: 15px;
+    padding: 15px;
+    overflow-wrap: break-word;
+    max-width: 300px;
+}
+
+.to-bubble {
+    position: relative;
+    background: #e5eaef;
+    border-radius: .4em;
+    float: left;
+}
+
+.to-bubble:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 1.438em solid transparent;
+    border-right-color: #e5eaef;
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: -0.719em;
+    margin-left: -1.437em;
+}
+
+.from-bubble {
+    position: relative;
+    background: #e5eaef;
+    border-radius: .4em;
+    float: right;
+    text-align: end;
+}
+
+.from-bubble:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 1.438em solid transparent;
+    border-left-color: #e5eaef;
+    border-right: 0;
+    border-bottom: 0;
+    margin-top: -0.719em;
+    margin-right: -1.437em;
+}
+
+.msg-conversation-card__row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 8px;
+}
+
+.ph2,
+.pr2 {
+    padding-right: 8px;
+}
+
+.t-14 {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.t-black--light {
+    color: rgba(0, 0, 0, .6);
+}
+
+.t1-bold {
+    font-weight: 600;
+}
+
+.msg-conversation-card__convo-utility {
+    white-space: nowrap;
+}
+
+.t-12 {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, .6);
+}
+
+.msg-conversations-container__title-row {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(205, 207, 210);
+}
