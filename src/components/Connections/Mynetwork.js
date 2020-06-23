@@ -24,7 +24,6 @@ class Mynetwork extends Component {
   }
 
   componentDidMount() {
-    //call to action
     const token = JSON.parse(localStorage.getItem(userConstants.AUTH_TOKEN));
     this.props.getAllConnections(token).then((response) => {
       console.log("response:", response);
