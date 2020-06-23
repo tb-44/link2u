@@ -1,0 +1,150 @@
+.neptune-grid1.left-rail {
+    max-width: 300px;
+}
+
+.neptune-grid1.left-rail {
+    margin-left: calc((576px * 0) - 24px + 24px);
+}
+
+.left-rail,
+.core-rail {
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 24px;
+    margin-right: -1px;
+}
+
+.left-rail {
+    width: 216px;
+}
+
+.mn-connections-summary {
+    text-align: center;
+    padding: 16px 24px;
+}
+
+.sticky>:first-child {
+    margin-top: 0;
+    transition: margin-top .25s ease-in-out;
+}
+
+.left-rail-container {
+    border-radius: 2px;
+}
+
+
+.t-13 {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.core-rail {
+    box-sizing: border-box;
+    float: left;
+    margin-right: -1px;
+    max-width: 1000px;
+    margin-bottom: 24px;
+    margin-left: calc((576px * 0) - 24px + 49px);
+    width: 700px;
+}
+
+.core-rail,
+.left-rail {
+    opacity: 1;
+    animation: none;
+}
+
+.artdeco-card {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15), 0 2px 3px rgba(0, 0, 0, .2);
+    transition: box-shadow 83ms;
+    background-color: #fff;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+}
+
+.mn-invitations-preview__header {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px 0px 20px;
+    margin-bottom: 0px;
+}
+
+.artdeco-card__header {
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    padding: 16px 24px;
+}
+
+
+.invitation-card {
+    /* display: flex; */
+    align-items: inherit;
+    flex-direction: column;
+    background: #fff;
+    visibility: visible;
+    position: relative;
+    opacity: 1;
+    transition: visibility .4s ease-in, opacity .4s ease-in;
+    border-bottom: 1px solid #e6e9ec;
+    width: 700px;
+}
+
+.invitation-card1 {
+    /* display: flex; */
+    align-items: inherit;
+    flex-direction: column;
+    background: #fff;
+    visibility: visible;
+    position: relative;
+    opacity: 1;
+    transition: visibility .4s ease-in, opacity .4s ease-in;
+    border-bottom: 1px solid #e6e9ec;
+    width: 900px;
+}
+
+.invitation-card__info-wrapper {
+    display: flex;
+    flex: 1;
+    min-width: 0;
+    align-items: center;
+}
+
+.invitation-card__details {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 8px 0;
+    min-height: 72px;
+    width: 100%;
+}
+
+.flex-align {
+    align-items: flex-end;
+}
+
+.invitation-card__action-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ph5,
+.pr5 {
+    padding-right: 24px;
+}
+
+.ph3,
+.pl3 {
+    padding-left: 12px;
+}
+
+.details-view {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 8px 0;
+    min-height: 72px;
+    width: 100%;
+}
