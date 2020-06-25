@@ -1,0 +1,187 @@
+.wrapping-header {
+    z-index: 1;
+    background-color: #5c6f7c;
+    z-index: -1;
+    opacity: .9;
+    background-image: url(/images/easyapply.svg);
+    background-size: 1920px 1080px;
+    background-position: left top;
+}
+
+.easyapply-header {
+    height: 144px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 300px;
+    padding: 0 12px;
+}
+
+.wrapping-header:after,
+.wrapping-header:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#container-easyapply {
+    padding-top: 50px;
+    margin-bottom: 64px;
+}
+
+.company-logo {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-right: 12px;
+    /* width: 70px;
+    height: 70px; */
+}
+
+.easyapply-header .company-info-wrapper {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+
+.easyapply-header .company-info {
+    line-height: 24px;
+    font-size: 17px;
+    -webkit-box-flex: 1;
+    flex: 1;
+    font-weight: 200;
+    letter-spacing: .5px;
+    margin-right: 12px;
+    overflow: hidden;
+}
+
+.easyapply-header .company-info,
+.submission-header {
+    font-family: Source Sans Pro, Helvetica, Arial, sans-serif, Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic, Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai, Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system, '.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+    color: #fff;
+}
+
+.easyapply-header .company-info .job-title {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.easyapply-header .company-info .location-description {
+    font-size: 14px;
+}
+
+.artdeco-scrolling-container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 1000px;
+}
+
+.section-profile .profile-title {
+    font-family: Source Sans Pro, Helvetica, Arial, sans-serif, Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic, Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai, Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system, '.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .7);
+    font-size: 21px;
+    margin-bottom: 16px;
+}
+
+.artdeco-tabpanel {
+    margin-left: 300px;
+    padding: 0 12px;
+}
+
+.section-profile .profile-entity>figure img {
+    width: 56px;
+    height: 56px;
+    box-sizing: border-box;
+    background-clip: content-box;
+    border: 1px solid transparent;
+    /* background-image: url(/images/avatar.png); */
+    border-radius: 49.9%;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.section-profile .profile-entity>figure {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.section-profile .profile-entity dt,
+.section-profile .profile-entity dt h2,
+.section-profile .profile-entity dt h3,
+.section-profile .profile-entity dt h4,
+.section-profile .profile-entity dt h5,
+.section-profile .profile-entity dt h6 {
+    font-family: Source Sans Pro, Helvetica, Arial, sans-serif, Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic, Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai, Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system, '.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+    line-height: 24px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .85);
+    font-size: 17px;
+    margin: 0;
+}
+
+.section-profile .profile-entity dl {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.section-profile .profile-entity dt {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.section-profile .profile-entity .badge,
+.section-profile .profile-entity dd:not(.badge),
+.section-profile .section-review-profile .review-profile-text {
+    font-family: Source Sans Pro, Helvetica, Arial, sans-serif, Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic, Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai, Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system, '.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .55);
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.job-question {
+    margin-bottom: 32px;
+    list-style: none;
+}
+
+.question-apply {
+    line-height: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .7);
+    font-size: 15px;
+    margin: 12px 0 3px;
+}
+
+.job-application-consents {
+    color: rgba(0, 0, 0, .55);
+    margin-bottom: 16px;
+}
+
+.job-application-consents {
+    line-height: 16px;
+    font-weight: 400;
+    font-family: Source Sans Pro, Helvetica, Arial, sans-serif, Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic, Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai, Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system, '.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+    font-size: 13px;
+}
