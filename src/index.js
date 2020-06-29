@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 import { createStore, applyMiddleware, compose } from "redux";
 import promise from "redux-promise";
 import thunkMiddleware from "redux-thunk";
-import reducer from "./Reducers";
+import reducer from "./Reducers/rootReducer";
 import * as serviceWorker from "./serviceWorker";
 
 const composePlugin = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

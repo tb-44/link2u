@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Field, reduxForm } from "redux-form";
-import { renderFieldLarge } from "../PostJobs/renderField";
+import { renderFieldLarge } from "../PostJobs/renderFieldLarge";
 import { connect } from "react-redux";
 
 const required = (value) =>

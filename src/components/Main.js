@@ -25,7 +25,7 @@ import RecruiterSignUp from "./Recruiter/RecruiterSignUp";
 import SearchPeople from "./Connections/Searchpeople";
 import MyConnections from "./Connections/Myconnections";
 import UserProfile from "./Connections/UserProfile";
-import NotARecruiter from "./Recruiter/NotAReccruiter";
+import NotARecruiter from "./Recruiter/NotARecruiter";
 import RecruiterJobApplications from "./PostJobs/Applications";
 import RecruiterProfile from "./Recruiter/RecruiterProfileForm";
 import ApplicantGraph from "./Dashboard/ApplicantGraph";
