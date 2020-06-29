@@ -6,7 +6,7 @@ import {
   renderJobDescription,
   renderDatePicker,
   renderApplicationType,
-} from "./renderField";
+} from "./renderFieldLarge";
 import { connect } from "react-redux";
 
 const required = (value) =>

@@ -7,7 +7,7 @@ import ShowJobsReducer from "./reducer_showjobs";
 import { ConnectionsReducer } from "./reducer_connections";
 import { ApplicantJobsReducer } from "./reducer_applicantjobs";
 import Conversations from "./reducer_messages";
-import RecruiterLoginReducer from "./reducer_recruiter_sigin";
+import RecruiterLoginReducer from "./reducer_recruiter_signin";
 import RecruiterSignUpReducer from "./reducer_recruiter_signup";
 import AddJobReducer from "./reducer_addjobs";
 import ApplicationsReducer from "./reducer_applications";

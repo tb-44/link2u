@@ -10,34 +10,29 @@ import { applicantlogin } from "../../Actions";
 import validator from "validator";
 import { userConstants } from "../../constants";
 
-import FloatingLabel, {
-  floatingStyles,
-  focusStyles,
-  inputStyles,
-  labelStyles,
-} from "floating-label-react";
+import FloatingLabel from "floating-label-react";
 
-const inputStyle = {
-  floating: {
-    ...floatingStyles,
-    color: "black",
-  },
-  focus: {
-    ...focusStyles,
-    borderColor: "black",
-  },
-  input: {
-    ...inputStyles,
-    borderBottomWidth: 2,
-    borderBottomColor: "black",
-    width: "400px",
-  },
-  label: {
-    ...labelStyles,
-    marginTop: ".5em",
-    width: "400px",
-  },
-};
+// const inputStyle = {
+//   floating: {
+//     ...floatingStyles,
+//     color: "black",
+//   },
+//   focus: {
+//     ...focusStyles,
+//     borderColor: "black",
+//   },
+//   input: {
+//     ...inputStyles,
+//     borderBottomWidth: 2,
+//     borderBottomColor: "black",
+//     width: "400px",
+//   },
+//   label: {
+//     ...labelStyles,
+//     marginTop: ".5em",
+//     width: "400px",
+//   },
+// };
 
 class Login extends Component {
   constructor(props) {
@@ -193,7 +188,7 @@ class Login extends Component {
             id="email"
             name="email"
             placeholder="Email"
-            styles={inputStyle}
+            //styles={inputStyle}
             onChange={this.changeHandler}
             type="email"
             defaultValue={email.value}
@@ -203,7 +198,7 @@ class Login extends Component {
             id="password"
             name="password"
             placeholder="Password"
-            styles={inputStyle}
+            //styles={inputStyle}
             onChange={this.changeHandler}
             type="password"
             defaultValue={password.value}
