@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./Navbar.css";
+import "./NavBar.css";
 import { withRouter, Link } from "react-router-dom";
 import { userConstants } from "../../constants";
 

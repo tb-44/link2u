@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../../App.css";
 import "../../jobsearch_wrapper.css";
 import "./connections.css";
-import Navbar from "../NavBar/Navbar";
+import Navbar from "../../Components/NavBar/NavBar";
 import { reduxForm } from "redux-form";
 import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";

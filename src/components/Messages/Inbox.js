@@ -1,4 +1,4 @@
-import Navbar from "../NavBar/Navbar";
+import Navbar from "../NavBar/NavBar";
 import React, { Component } from "react";
 import "./Inbox.css";
 import { connect } from "react-redux";

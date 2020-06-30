@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../../App.css";
 import "../../jobsearch_wrapper.css";
-import Navbar from "../NavBar/Navbar";
+import Navbar from "../NavBar/NavBar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { reduxForm } from "redux-form";
 import { withRouter } from "react-router-dom";

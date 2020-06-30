@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import axios from "axios";
 import URI from "../../constants/URI";
-import Navbar from "../NavBar/Navbar";
+import Navbar from "../NavBar/NavBar";
 
 var BarChart = require("react-chartjs").Bar;
 

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../../App.css";
 import "../../jobsearch_wrapper.css";
 import "./Easyapply.css";
-import "../../Components/NavBar/Navbar.css";
+//import "./Navbar.css";
 import { reduxForm } from "redux-form";
 import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
