@@ -245,7 +245,7 @@ class Home extends Component {
           <div className="home_wrapper">
             <h1>
               <a className="navbar-brand" href="/">
-                <img src={"images/linkedinfulllogo1.png"} alt="LinkedIn" />
+                <img src={"images/linkedin.png"} alt="" />
               </a>
             </h1>
             <form className="login-form" onSubmit={this.submitLogin}>
