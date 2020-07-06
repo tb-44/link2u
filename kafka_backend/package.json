@@ -1,0 +1,23 @@
+{
+  "name": "kafka_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bson": "^4.0.4",
+    "delay": "^4.3.0",
+    "kafka-node": "^5.0.0",
+    "moment": "^2.27.0",
+    "moment-range": "^4.0.2",
+    "mongoose": "^5.9.21",
+    "mysql": "^2.18.1",
+    "redis": "^3.0.2"
+  }
+}
