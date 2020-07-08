@@ -81,7 +81,7 @@ app.use(function (req, res, next) {
   next();
 });
 
-app.use(expressValidator());
+//app.use(expressValidator());
 app.use(morgan("dev"));
 
 // define routes

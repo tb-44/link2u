@@ -1,9 +1,9 @@
 const express = require("express");
-const kafka = require("./../kafka/client");
+const kafka = require("../kafka/client");
 const {
   SEND_MESSAGE_REQUEST,
   SEND_MESSAGE_RESPONSE,
-} = require("./../kafka/topics");
+} = require("../kafka/topics");
 const {
   responseHandler,
   sendInternalServerError,
