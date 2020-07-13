@@ -9,18 +9,10 @@ export default class WebService extends AxiosService {
     return this.instance;
   }
 
-  /**
-   * Get Conversations - Api call
-   * Takes success and failure operations
-   */
   getConversations(success, failure) {
     this.getCall(URI.GET_CONVERSATIONS, success, failure, true);
   }
 
-  /**
-   * Post Message - Api call
-   * Takes success and failure operations
-   */
   sendMessage(details, success, failure) {
     this.postCall(URI.SEND_MESSAGE, details, success, failure, true);
   }
