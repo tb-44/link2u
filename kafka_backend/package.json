@@ -14,7 +14,7 @@
     "bson": "^4.0.4",
     "delay": "^4.3.0",
     "kafka-node": "^5.0.0",
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "moment-range": "^4.0.2",
     "mongoose": "^5.9.21",
     "mysql": "^2.18.1",
